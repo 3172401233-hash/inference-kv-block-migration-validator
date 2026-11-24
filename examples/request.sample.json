@@ -1,0 +1,19 @@
+{
+  "requestId": "req-8f3c",
+  "outputTokens": 40,
+  "blockRefs": [
+    { "blockId": "b0", "tokenStart": 0, "tokenEnd": 16, "version": 3 },
+    { "blockId": "b1", "tokenStart": 16, "tokenEnd": 32, "version": 3 },
+    { "blockId": "b2", "tokenStart": 32, "tokenEnd": 48, "version": 2 }
+  ],
+  "migratedBlocks": [
+    { "blockId": "b0", "version": 3, "tokenEnd": 16 },
+    { "blockId": "b1", "version": 3, "tokenEnd": 32 },
+    { "blockId": "b2", "version": 2, "tokenEnd": 48 }
+  ],
+  "migrationStatus": "complete",
+  "clientAck": { "ackedTokens": 24, "connected": true },
+  "events": [
+    { "eventId": "ev-failover-1", "type": "failover", "newNodeOffset": 16 }
+  ]
+}

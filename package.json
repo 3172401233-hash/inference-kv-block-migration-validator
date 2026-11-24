@@ -1,0 +1,14 @@
+{
+  "name": "inference-kv-block-migration-validator",
+  "version": "1.0.0",
+  "description": "模拟推理节点故障后的 KV 块迁移校验与恢复位置计算（全部为内存模拟）",
+  "type": "module",
+  "engines": {
+    "node": ">=24.16.0"
+  },
+  "scripts": {
+    "test": "node --test",
+    "demo": "node src/cli.js --demo"
+  },
+  "license": "MIT"
+}
